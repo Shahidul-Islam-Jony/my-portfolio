@@ -5,7 +5,7 @@ import '../../../../src/App.css'
 const Banner = () => {
     return (
         <div>
-            <div className='flex justify-end p-2 lg:p-4'>
+            <div className='flex justify-end p-4'>
                 <a>
                 </a>
                 <a href="https://react.dev" target="_blank" className=''>
@@ -23,7 +23,7 @@ const Banner = () => {
                     </p>
                 </span>
             </div>
-            <div className='flex justify-start p-2 lg:p-4'>
+            <div className='flex justify-start p-4'>
                 <a>
                 </a>
                 <a href="https://react.dev" target="_blank" className=''>
