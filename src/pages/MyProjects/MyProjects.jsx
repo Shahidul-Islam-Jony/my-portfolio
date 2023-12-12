@@ -1,8 +1,9 @@
+import Banner from "../../components/MyProjects/Banner/Banner";
 
 const MyProjects = () => {
     return (
         <div>
-            My Projects
+            <Banner></Banner>
         </div>
     );
 };
