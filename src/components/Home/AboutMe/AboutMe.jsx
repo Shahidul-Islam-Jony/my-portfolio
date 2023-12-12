@@ -1,5 +1,6 @@
 import jony from '../../../assets/images/jony.jpg'
 
+
 const AboutMe = () => {
     return (
         <div id="aboutMe" className='bg-[#39A4AC] py-16 rounded-lg'>
