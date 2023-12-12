@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <p className='border-b-2 py-3'>Facebook : <a href="https://www.facebook.com/profile.php?id=100007891637711">Follow Me On Facebook</a></p>
 
                         <p><a href="https://drive.google.com/file/d/1FtstPQ9Hxzz4V7mnqEyLG66PvOkbUX1j/view?usp=sharing" target="blank" download="Shahidul Islam Resume.pdf">
-                    <button class="btn btn-outline text-white mt-9">Download CV</button>
+                    <button class="btn btn-outline text-white mt-9">Download Resume</button>
                  </a>
             </p>
                     </div>
