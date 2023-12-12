@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.satisfyFont {
+  font-family: 'Satisfy', cursive;
+}
 
 a.active {
   border-bottom: 4px solid orangered;
   border-radius: 5px;
 }
+
 a:hover {
   background-color: orangered;
   border-radius: 5px;
