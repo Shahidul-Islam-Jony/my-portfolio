@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from '../../assets/images/world3.png'
+import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ const Navbar = () => {
     const links = <div className="flex flex-col md:flex-row gap-7 text-white text-lg">
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/myProjects'>My Projects</NavLink>
-        <NavLink to='skills'>Skills</NavLink>
-        <NavLink to='resume'>Resume</NavLink>
-        <NavLink to='aboutMe'>About Me</NavLink>
-        <NavLink to='contactMe'>Contact Me</NavLink>
+        <Link to='skills'  smooth={true} duration={500}>Skills</Link>
+        <Link to='resume'  smooth={true} duration={500}>Resume</Link>
+        <Link to='aboutMe'  smooth={true} duration={500}>About Me</Link>
+        <Link to='contactMe'  smooth={true} duration={500}>Contact Me</Link>
     </div>
     return (
         <div>

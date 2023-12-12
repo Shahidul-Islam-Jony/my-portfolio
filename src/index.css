@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +7,10 @@
 
 .satisfyFont {
   font-family: 'Satisfy', cursive;
+}
+
+.fira {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 a.active {

@@ -18,7 +18,7 @@ const Banner = () => {
                     <p className='font-semibold'>Web developer</p>
                 </span>
                 <span>
-                    <p className='text-center mt-12 text-xl text-gray-700'>Hi, My name is Shahidul Islam. <br />
+                    <p className='text-center mt-12 text-xl text-gray-700 fira'>Hi, My name is Shahidul Islam. <br />
                         I am a MERN stack web developer. I want to design user interactive & beautiful website.<br/> Weclome to my portfolio page that I have designed to show my skills and expertise.
                     </p>
                 </span>
