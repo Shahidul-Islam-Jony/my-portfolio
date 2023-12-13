@@ -10,7 +10,7 @@ const Skills = () => {
             <div className="card bg-gray-400 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-black py-6">
                 <figure><img src={work} className='border-4 border-white rounded-full p-4' alt="working" /></figure>
                 <div className="mt-5">
-                    <h2 className='bg-gray-700 text-white p-4 text-center font-medium mb-4'>WORK EXPERIENCE</h2>
+                    <h2 className='bg-gray-700 text-white p-4 text-center font-medium mb-4'>EXPERIENCE</h2>
                     <ol type='1' className='px-3'>
                         <li className='my-3'>
                             <strong>1. Tution teacher of Information & Communication Techonology.</strong><br />

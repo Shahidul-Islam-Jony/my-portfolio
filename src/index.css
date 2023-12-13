@@ -19,7 +19,8 @@ a.active {
 }
 
 a:hover {
-  background-color: orangered;
   border-radius: 5px;
   padding: 0px 4px;
+  border-bottom: 2px solid orangered;
+  background-color: gray;
 }
