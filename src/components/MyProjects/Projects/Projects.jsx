@@ -1,15 +1,16 @@
 
+
 const Projects = () => {
     return (
         <div className="my-16">
             <h2 className="text-5xl text-center font-semibold border-b-4 pb-5">My Projects</h2>
             {/* Assignment 11 */}
             <div className="flex flex-col lg:flex-row justify-between mt-5 border-b-4 pb-7">
-                <div>
+                <div className="w-96 md:w-[600px]">
                     <h2 className="text-3xl font-semibold mt-5">Project Name : Restaurant (Food Fantasia)</h2>
                     <p><span className="text-xl font-medium">Live Link : </span><a className="underline text-lg" href=" https://assignment11-restaurant.web.app" target="_blank">Food Fantasia</a></p>
-                    <p><span className="text-xl font-medium">Client Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment11-Restaurant-Client" target="_blank">Client Side Code</a></p>
-                    <p><span className="text-xl font-medium">Server Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment11-Restaurant-Server" target="_blank">Server Side Code</a></p>
+                    <p><span className="text-xl font-medium">Client Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment11-Restaurant-Client" target="blank">Client Side Code</a></p>
+                    <p><span className="text-xl font-medium">Server Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment11-Restaurant-Server" target="blank">Server Side Code</a></p>
 
                     <div>
                         <h4 className="text-xl font-medium">Projects Feature :</h4>
@@ -30,17 +31,17 @@ const Projects = () => {
                     </div>
 
                 </div>
-                <div>
-                    <iframe className="w-[500px] h-96" src="https://assignment11-restaurant.web.app" frameborder="0"></iframe>
+                <div className="mt-10 lg:mt-0 w-full lg:w-1/2">
+                    <iframe className="w-full h-96" src="https://assignment11-restaurant.web.app"></iframe>
                 </div>
             </div>
             {/* Assignment 12 */}
             <div className="flex flex-col lg:flex-row justify-between mt-5 border-b-4 pb-7">
-                <div>
+                <div className="w-96 md:w-[600px]">
                     <h2 className="text-3xl font-semibold mt-5">Project Name : Parcel Management (Parcel Point)</h2>
-                    <p><span className="text-xl font-medium">Live Link : </span><a className="underline text-lg" href="https://assignment-12-aa1be.web.app/" target="_blank">Parcel Point</a></p>
-                    <p><span className="text-xl font-medium">Client Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment12-Parcel-Management-Client" target="_blank">Client Side Code</a></p>
-                    <p><span className="text-xl font-medium">Server Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment12-Parcel-Management-Server" target="_blank">Server Side Code</a></p>
+                    <p><span className="text-xl font-medium">Live Link : </span><a className="underline text-lg" href="https://assignment-12-aa1be.web.app/" target="blank">Parcel Point</a></p>
+                    <p><span className="text-xl font-medium">Client Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment12-Parcel-Management-Client" target="blank">Client Side Code</a></p>
+                    <p><span className="text-xl font-medium">Server Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment12-Parcel-Management-Server" target="blank">Server Side Code</a></p>
 
                     <div>
                         <h4 className="text-xl font-medium">Projects Feature :</h4>
@@ -61,17 +62,17 @@ const Projects = () => {
                     </div>
 
                 </div>
-                <div>
-                    <iframe className="w-[500px] h-96" src="https://assignment-12-aa1be.web.app" frameborder="0"></iframe>
+                <div className="mt-10 lg:mt-0 w-full lg:w-1/2">
+                    <iframe className="w-full h-96" src="https://assignment-12-aa1be.web.app"></iframe>
                 </div>
             </div>
             {/* Assignment 10 */}
             <div className="flex flex-col lg:flex-row justify-between mt-5 border-b-4 pb-7">
-                <div>
+                <div className="w-96 md:w-[600px]">
                     <h2 className="text-3xl font-semibold mt-5">Project Name : Brand Shop (TechEshop)</h2>
                     <p><span className="text-xl font-medium">Live Link : </span><a className="underline text-lg" href=" https://assignment10-client-side.web.app/" target="_blank">TechEshop</a></p>
-                    <p><span className="text-xl font-medium">Client Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment10-Brand-Shop-TechEshop-Client-Side" target="_blank">Client Side Code</a></p>
-                    <p><span className="text-xl font-medium">Server Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment10-Brand-Shop-TechEshop-Server-Side" target="_blank">Server Side Code</a></p>
+                    <p><span className="text-xl font-medium">Client Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment10-Brand-Shop-TechEshop-Client-Side" target="blank">Client Side Code</a></p>
+                    <p><span className="text-xl font-medium">Server Side Code Repository : </span><a className="underline text-lg" href="https://github.com/Shahidul-Islam-Jony/Assignment10-Brand-Shop-TechEshop-Server-Side" target="blank">Server Side Code</a></p>
 
                     <div>
                         <h4 className="text-xl font-medium">Projects Feature :</h4>
@@ -92,8 +93,8 @@ const Projects = () => {
                     </div>
 
                 </div>
-                <div>
-                    <iframe className="w-[500px] h-96" src="https://assignment10-client-side.web.app" frameborder="0"></iframe>
+                <div className="mt-10 lg:mt-0 w-full lg:w-1/2">
+                    <iframe className="w-full h-96" src="https://assignment10-client-side.web.app"></iframe>
                 </div>
             </div>
         </div>
