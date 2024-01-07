@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../../assets/images/world3.png'
+// import logo from '../../assets/images/world3.png'
+import logo from '../../assets/images/jony.png'
+
 import { Link } from 'react-scroll';
 
 
@@ -28,7 +30,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex w-full items-center">
-                        <img src={logo} className="w-14 h-14 md:w-20 md:h-20 rounded-full" alt="" />
+                        <img src={logo} className="w-14 h-14 border-4 md:w-20 md:h-20 rounded-full" alt="" />
                         <p className="text-white text-2xl md:text-3xl font-serif font-bold ml-4  w-full">Shahidul Islam</p>
                     </div>
                 </div>

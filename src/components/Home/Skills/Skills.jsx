@@ -70,7 +70,7 @@ const Skills = () => {
             <div className="card bg-gray-400 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-black  py-6">
                 <figure><img src={skill} className='border-4 w-[105px] h-[105px] border-white rounded-full p-4' alt="education" /></figure>
                 <div className="mt-5">
-                    <h2 className='bg-gray-700 text-white p-4 text-center font-medium mb-4'>EDUCATION AND TRAINING</h2>
+                    <h2 className='bg-gray-700 text-white p-4 text-center font-medium mb-4'>Skills</h2>
                     <ul className='px-3'>
                         <p className='text-lg font-medium'>HTML</p>
                         <ProgressBar completed='90' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>

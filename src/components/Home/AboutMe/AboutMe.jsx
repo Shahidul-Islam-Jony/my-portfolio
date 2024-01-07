@@ -1,4 +1,4 @@
-import jony from '../../../assets/images/jony.jpg'
+import jony from '../../../assets/images/jony.png'
 
 
 const AboutMe = () => {
@@ -8,7 +8,7 @@ const AboutMe = () => {
                 <h3 className='text-5xl text-center border-b-8 border-dotted w-fit p-7 text-white font-semibold'>ABOUT ME</h3>
             </span>
             <div className="">
-                <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-52">
+                <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-44">
                     <img src={jony} className="w-72 h-72 rounded-full border-8 border-white shadow-2xl" />
                     <div className='text-white text-xl fira ml-4 mt-5'>
                         <p>I am a MERN stack web developer.</p>
@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <p className='border-b-2 py-3'>Facebook : <a href="https://www.facebook.com/profile.php?id=100007891637711">Follow Me On Facebook</a></p>
 
                         <p><a href="https://drive.google.com/file/d/1FtstPQ9Hxzz4V7mnqEyLG66PvOkbUX1j/view?usp=sharing" target="blank" download="Shahidul Islam Resume.pdf">
-                    <button class="btn btn-outline text-white mt-9">Download Resume</button>
+                    <button className="btn btn-outline text-white mt-9">Download Resume</button>
                  </a>
             </p>
                     </div>
