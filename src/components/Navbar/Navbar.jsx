@@ -31,7 +31,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex w-full items-center">
                         <img src={logo} className="w-14 h-14 border-4 md:w-20 md:h-20 rounded-full" alt="" />
-                        <p className="text-white text-2xl md:text-3xl font-serif font-bold ml-4  w-full">Shahidul Islam</p>
+                        <p className=" text-2xl md:text-4xl satisfyFont font-bold ml-4 bg-gradient-to-r from-orange-600 to-pink-500 text-transparent bg-clip-text">Shahidul Islam</p>
                     </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
