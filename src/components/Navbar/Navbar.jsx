@@ -12,7 +12,7 @@ const Navbar = () => {
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/myProjects'>My Projects</NavLink>
         <Link to='skills'  smooth={true} duration={500}>Skills</Link>
-        <a href="https://drive.google.com/file/d/1FtstPQ9Hxzz4V7mnqEyLG66PvOkbUX1j/view?usp=sharing" target="blank" download="Shahidul Islam Resume.pdf">Resume</a>
+        <a href="https://drive.google.com/file/d/1e1kVYu5B926zSdngXC5xOLbZQokFCLuE/view" target="blank" download="Shahidul Islam Resume.pdf">Resume</a>
         <Link to='aboutMe'  smooth={true} duration={500}>About Me</Link>
         <Link to='contactMe'  smooth={true} duration={500}>Contact Me</Link>
     </div>

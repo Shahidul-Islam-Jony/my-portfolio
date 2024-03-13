@@ -6,7 +6,7 @@ import './cardStyle.css'
 
 const Skills = () => {
     return (
-        <div className='grid grid-cols-3 gap-2 my-7'>
+        <div id='skills' className='grid grid-cols-3 gap-2 my-7'>
             <div className="card">
                 <div className='content w-full'>
                     <div className="-mt-20">
