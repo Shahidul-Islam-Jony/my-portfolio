@@ -1,6 +1,7 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
+import './button.css'
 
 const ContactMe = () => {
     return (
@@ -20,8 +21,8 @@ const ContactMe = () => {
                         <input type="email" placeholder="Your Email" name="Email" className="input input-bordered input-primary w-full mb-2" />
                         <textarea name="message" className="textarea textarea-primary w-full" cols="34" rows="7" placeholder="Your message here"></textarea>
                         <div className="mt-3">
-                            <button className="btn btn-secondary btn-sm mr-4" type="submit">SEND</button>
-                            <button className="btn btn-secondary btn-sm" type="reset">RESET</button>
+                            <button className="btn1 btn-sm mr-4" type="submit">SEND</button>
+                            <button className="btn1 btn-sm" type="reset">RESET</button>
                         </div>
                     </form>
                 </div>
