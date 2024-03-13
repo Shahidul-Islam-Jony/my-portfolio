@@ -1,6 +1,6 @@
 .card {
 	height:700px;
-	background: #9CA3AF;
+	background: #0C6168;
 	position: relative;
 	display: flex;
 	place-content: center;
@@ -37,7 +37,7 @@
   .card::after {
 	content: '';
 	position: absolute;
-	background: #9CA3AF;
+	background: #0C6168;
 	;
 	inset: 5px;
 	border-radius: 15px;

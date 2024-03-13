@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ContactMe = () => {
     return (
-        <div id="contactMe" className='bg-[#39A4AC] py-16 rounded-t-lg'>
+        <div id="contactMe" className='bg-[#0C6168] relative py-16 rounded-t-lg'>
             <div className="grid grid-cols-1 lg:grid-cols-3 px-10">
                 <div className='text-white'>
                     <h3 className='text-3xl text-center border-b-8 border-dotted w-fit p-7 font-semibold mb-4'>ACHIVEMENTS</h3>
@@ -15,7 +15,7 @@ const ContactMe = () => {
                 {/* Contact form */}
                 <div>
                     <h3 className='text-3xl text-white text-center border-b-8 mb-7 border-dotted w-fit p-7 font-semibold'>CONTACT ME</h3>
-                    <form action="mailto:shahidulislam13sf@gmail.com" method="POST" enctype="text/plain">
+                    <form action="mailto:shahidulislam13sf@gmail.com" method="POST">
                         <input type="text" placeholder="Your Name" name="Name" className="input input-bordered input-primary w-full mb-2" />
                         <input type="email" placeholder="Your Email" name="Email" className="input input-bordered input-primary w-full mb-2" />
                         <textarea name="message" className="textarea textarea-primary w-full" cols="34" rows="7" placeholder="Your message here"></textarea>

@@ -18,7 +18,7 @@ const Navbar = () => {
     </div>
     return (
         <div>
-            <div className="navbar bg-[#0C6168] rounded-b-md px-4">
+            <div className="navbar relative bg-[#0C6168] rounded-b-md px-4">
                 <div className="md:navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" onClick={() => setisActive(true)} className="btn btn-ghost lg:hidden">

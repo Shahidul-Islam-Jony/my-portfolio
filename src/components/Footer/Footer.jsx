@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
-        <div className="bg-black flex flex-col md:flex-row justify-between items-center gap-4 text-white py-10">
+        <div className="bg-black relative flex flex-col md:flex-row justify-between items-center gap-4 text-white py-10">
             <div className="flex gap-6 ml-7">
                 <NavLink to='/'>Home</NavLink>
                 <Link to='skills' smooth={true} duration={500}>Skills</Link>

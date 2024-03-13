@@ -3,7 +3,7 @@ import './button.css'
 
 const AboutMe = () => {
     return (
-        <div id="aboutMe" className='bg-[#39A4AC] py-16 rounded-lg'>
+        <div id="aboutMe" className='bg-[#0C6168] relative py-16 rounded-lg'>
             <span className='flex justify-center mb-16'>
                 <h3 className='text-5xl text-center border-b-8 border-dotted w-fit p-7 text-white font-semibold'>ABOUT ME</h3>
             </span>
@@ -12,7 +12,7 @@ const AboutMe = () => {
                     <img src={jony} className="w-72 h-72 rounded-full border-8 border-white shadow-2xl" />
                     <div className='text-white text-xl fira ml-4 mt-5'>
                         <p>I am a MERN stack web developer.</p>
-                        <p className='border-b-2 pb-3'>I want to make user interactive website.So that user can easily understood web</p>
+                        <p className='border-b-2 pb-3'>I want to make user attractive website.So that user can easily understood web</p>
                         <p className='border-b-2 py-3'>Name : Shahidul Islam</p>
                         <p className='border-b-2 py-3'>Address : Rajshahi, Bangladesh</p>
                         <p className='border-b-2 py-3'>Email : <a href="mailto:shahidulislam13sf@gmail.com">shahidulislam13sf@gmail.com</a></p>

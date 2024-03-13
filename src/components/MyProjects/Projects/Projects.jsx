@@ -2,7 +2,7 @@
 
 const Projects = () => {
     return (
-        <div className="my-16">
+        <div className="my-16 relative text-white">
             <h2 className="text-5xl text-center font-semibold border-b-4 pb-5">My Projects</h2>
             {/* Assignment 11 */}
             <div className="flex flex-col lg:flex-row justify-between mt-5 border-b-4 pb-7">
