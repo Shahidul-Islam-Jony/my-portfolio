@@ -18,7 +18,7 @@ const Navbar = () => {
     </div>
     return (
         <div>
-            <div className="navbar relative bg-[#0C6168] rounded-b-md px-4">
+            <div className="navbar relative shadow-md bg-[#0C6168] rounded-b-lg  z-50">
                 <div className="md:navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" onClick={() => setisActive(true)} className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <div className="flex w-full items-center">
+                    <div className="flex items-center">
                         <img src={logo} className="w-14 h-14 border-4 md:w-20 md:h-20 rounded-full" alt="" />
                         <p className=" text-2xl md:text-4xl satisfyFont font-bold ml-4 bg-gradient-to-r from-orange-600 to-pink-500 text-transparent bg-clip-text">Shahidul Islam</p>
                     </div>

@@ -66,7 +66,7 @@ const ParticleJs = () => {
             default: "bounce",
           },
           random: false,
-          speed: 2,
+          speed: 1,
           straight: false,
         },
         number: {
@@ -79,10 +79,10 @@ const ParticleJs = () => {
           value: 0.5,
         },
         shape: {
-          type: "triangle",
+          type: "star",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 3 },
         },
       },
       detectRetina: true,

@@ -81,23 +81,23 @@ const Skills = () => {
                             <h2 className='bg-gray-700 mx-1 text-white p-4 text-center font-medium mb-4'>Skills</h2>
                             <ul className='px-3'>
                                 <p className='text-lg font-medium'>HTML</p>
-                                <ProgressBar className='' completed='90' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar className='' bgColor='#39A3AB' completed='90' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>CSS</p>
-                                <ProgressBar completed='85' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='85' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>JavaScript</p>
-                                <ProgressBar completed='80' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='80' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>React</p>
-                                <ProgressBar completed='75' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='75' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>Express JS</p>
-                                <ProgressBar completed='70' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='70' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>Node JS</p>
-                                <ProgressBar completed='70' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='70' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>Github</p>
-                                <ProgressBar completed='80' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='80' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>C</p>
-                                <ProgressBar completed='80' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='80' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                                 <p className='text-lg font-medium'>C++</p>
-                                <ProgressBar completed='80' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
+                                <ProgressBar completed='80' bgColor='#39A3AB' maxCompleted='100' animateOnRender='true' transitionDuration='5s'></ProgressBar>
                             </ul>
                         </div>
                     </div>
