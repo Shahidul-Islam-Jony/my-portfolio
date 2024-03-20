@@ -8,13 +8,20 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [isActive, setisActive] = useState(true);
+    const [isActiveMyProject, setActiveMyProject] = useState(false);
+
     const links = <div className="flex flex-col md:flex-row gap-7 text-white text-lg">
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/myProjects'>My Projects</NavLink>
-        <Link to='skills'  smooth={true} duration={500}>Skills</Link>
-        <a href="https://drive.google.com/file/d/1e1kVYu5B926zSdngXC5xOLbZQokFCLuE/view" target="blank" download="Shahidul Islam Resume.pdf">Resume</a>
-        <Link to='aboutMe'  smooth={true} duration={500}>About Me</Link>
-        <Link to='contactMe'  smooth={true} duration={500}>Contact Me</Link>
+        <NavLink to='/' onClick={() => setActiveMyProject(false)}>Home</NavLink>
+        {
+            isActiveMyProject ? '' :
+                <div className="flex gap-7">
+                    <Link to='skills' smooth={true} duration={500}>Skills</Link>
+                    <a href="https://drive.google.com/file/d/1e1kVYu5B926zSdngXC5xOLbZQokFCLuE/view" target="blank" download="Shahidul Islam Resume.pdf">Resume</a>
+                    <Link to='aboutMe' smooth={true} duration={500}>About Me</Link>
+                    <Link to='contactMe' smooth={true} duration={500}>Contact Me</Link>
+                </div>
+        }
+        <NavLink to='/myProjects' onClick={() => setActiveMyProject(true)}>My Projects</NavLink>
     </div>
     return (
         <div>
