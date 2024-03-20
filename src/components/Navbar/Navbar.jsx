@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavLink to='/' onClick={() => setActiveMyProject(false)}>Home</NavLink>
         {
             isActiveMyProject ? '' :
-                <div className="flex gap-7">
+                <div className="flex flex-col md:flex-row gap-7">
                     <Link to='skills' smooth={true} duration={500}>Skills</Link>
                     <a href="https://drive.google.com/file/d/1e1kVYu5B926zSdngXC5xOLbZQokFCLuE/view" target="blank" download="Shahidul Islam Resume.pdf">Resume</a>
                     <Link to='aboutMe' smooth={true} duration={500}>About Me</Link>
