@@ -25,7 +25,7 @@ const Navbar = () => {
     </div>
     return (
         <div>
-            <div className="navbar relative shadow-md bg-[#0C6168] rounded-b-lg  z-50">
+            <div className="navbar relative shadow-md bg-transparent glass rounded-b-lg  z-50">
                 <div className="md:navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" onClick={() => setisActive(true)} className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ const Navbar = () => {
                         <p className=" text-2xl md:text-4xl satisfyFont font-bold ml-4 bg-gradient-to-r from-orange-600 to-pink-500 text-transparent bg-clip-text">Shahidul Islam</p>
                     </div>
                 </div>
-                <div className="navbar-end hidden lg:flex">
+                <div className="navbar-end w-full hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {/* large devices links */}
                         {links}

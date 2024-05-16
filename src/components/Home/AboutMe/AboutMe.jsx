@@ -3,7 +3,7 @@ import './button.css'
 
 const AboutMe = () => {
     return (
-        <div id="aboutMe" className='bg-[#0C6168] relative py-16 rounded-lg'>
+        <div id="aboutMe" className='bg-current relative py-16 rounded-lg'>
             <span className='flex justify-center mb-16'>
                 <h3 className='text-5xl text-center border-b-8 border-dotted w-fit p-7 text-white font-semibold'>ABOUT ME</h3>
             </span>
